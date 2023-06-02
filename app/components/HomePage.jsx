@@ -1,32 +1,17 @@
 "use client";
 import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMail} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import InfoIcon from "./InfoIcon";
+import Navbar from "./Navbar";
 
 export default function HomePage({ title, Icon }) {
-  const [nav, setNav] = useState(false);
+
   return (
     <nav>
-      <div>
-        <div className="flex justify-between md:justify-evenly items-center px-16 py-4 bg-gray-300 shadow-lg">
-          <div className="uppercase font-bold">paul olawale</div>
-          <ul className="hidden md:flex justify-between uppercase ">
-            <li className="p-4">Home </li>
-            <li className="p-4">about</li>
-            <li className="p-4">skills</li>
-            <li className="p-4">product</li>
-            <li className="p-4">contact</li>
-          </ul>
-
-          <div
-            className="font-bold flex md:hidden"
-            onClick={() => setNav(!nav)}
-          >
-            {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
-          </div>
-        </div>
+      <div className="mb-20">
+        <Navbar />
 
         <div className="px-8 md:px-16 mt-[80px] flex flex-col justify-center items-center">
           <p className="uppercase"> let's build together</p>
