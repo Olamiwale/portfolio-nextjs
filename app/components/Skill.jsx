@@ -16,25 +16,27 @@ import Shopify from './asset/shopify.png'
 
 export default function Skill({title, logo}) {
   return (
-    <div className='py-8'>
+    <div id='skills' className='p-8 ' >
         <div>
             <p className='font-bold text-2xl py-4'>Skills</p>
             <p className='font-semibold text-xl py-4'>What I can do</p>
         </div>
-        
-          <div className='grid grid-cols-2 md:grid-cols-3 px-8'>
-          
+       
+          <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5'>
            <SkillsLogo logo={Css} title='CSS' /> 
            <SkillsLogo logo={Html} title='HTML' /> 
            <SkillsLogo logo={ImgGit} title='Github' /> 
            <SkillsLogo logo={Js} title='JavaScript' /> 
-           <SkillsLogo logo={Mongo} title='Mongo' /> 
+          
            <SkillsLogo logo={Next} title='Next' /> 
            <SkillsLogo logo={Node} title='Node' /> 
            <SkillsLogo logo={Firebase} title='Firebase' /> 
            <SkillsLogo logo={Tailwind} title='Tailwind' /> 
-           <SkillsLogo logo={Aws} title='AWS' /> 
+        
+      
         </div>
+        
+          
         
         
         

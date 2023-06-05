@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div>
+    <div id='about'>
         <div className='p-8'>
       <div className='md:grid grid-cols-3 gap-10'>
         <div className='col-span-2'>

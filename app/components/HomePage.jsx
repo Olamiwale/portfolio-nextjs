@@ -1,5 +1,5 @@
-"use client";
-import React, { useState } from "react";
+
+import React from "react";
 import { AiOutlineMail} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 export default function HomePage({ title, Icon }) {
 
   return (
-    <nav>
+    <div id='#home'>
       <div className="mb-20">
         <Navbar />
 
@@ -27,7 +27,7 @@ export default function HomePage({ title, Icon }) {
         </div>
 
         <div className=" mt-20">
-          <div className="flex justify-evenly items-center ">
+          <div className="flex justify-evenly items-center lg:w-[800px] m-auto ">
             <InfoIcon title="Github" Icon={<FaGithub size={25} />} />
             <InfoIcon
               title="Account"
@@ -39,6 +39,7 @@ export default function HomePage({ title, Icon }) {
           </div>
         </div>
       </div>
-    </nav>
+      
+    </div>
   );
 }
