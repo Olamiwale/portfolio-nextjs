@@ -2,19 +2,25 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function ProjectProps({title, tech, projectUrl}) {
+export default function ProjectProps({title,url}) {
   return (
-    
-        <div className='p-8 flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5e5bbd] to-[#4c659b]'>
-    <Image className='rounded-xl group-hover:opacity-10' src='/about.jpg' alt='/' width={300} height={40} /> 
-    <div className='absolute opacity-0 group-hover:opacity-100'>
-        <h3 className='text-2xl text-white tracking-wider text-center'>{title}</h3>
-        <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
-        <Link href={projectUrl}>
-            <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+     <div className=' rounded-xl p-2'>
+
+    <div className='flex justify-center items-center group'>
+    <Image className='rounded-xl w-[full] group-hover:opacity-10' src='/nextflix.png' alt='/' width={400} height={80} /> 
+    <div className='absolute text-white justify-center items-center flex flex-col gap-4 opacity-0 group-hover:opacity-100'>
+        <p className='font-bold text-xl text-red-500'>{title}</p>
+        <Link href={url}>
+         <p className='bg-gray-600 p-2 px-4 rounded-md cursor-pointer text-red-500'>More</p>
+       
         </Link>
+       
     </div>
+    </div>   
+
+
  </div>
     
   )
 }
+

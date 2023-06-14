@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div id='about'>
+    <div id='about' className='pt-[80px]'>
         <div className='p-8'>
       <div className='md:grid grid-cols-3 gap-10'>
         <div className='col-span-2'>
@@ -21,12 +21,12 @@ export default function About() {
             specific language, but choosing the best tool for the job.
           </p>
           <p className='md:text-xl py-8'>
-            I started web developement in 2013 managing multiple e-commerce
+            I started web development in 2013 managing multiple e-commerce
             websites on CMS platforms such as WordPress, BigCommerce, and
             Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
+            mock wire-frames all the way to deployed applications. In my spare
             time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+            development and various front-end technologies.
           </p>
          
             <p className='md:w-[300px] m-auto text-center font-semibold p-3 bg-blue-300 hover:scale-105 ease-in duration-500 shadow-2xl'> 

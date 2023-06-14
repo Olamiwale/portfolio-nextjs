@@ -5,18 +5,18 @@ import Css from './asset/css.png'
 import Html from './asset/html.png'
 import ImgGit from './asset/github1.png'
 import Js from './asset/javascript.png'
-import Mongo from './asset/mongo.png'
+
 import Next from './asset/nextjs.png'
 import Node from './asset/node.png'
 import Firebase from './asset/firebase.png'
-import Aws from './asset/aws.png'
+
 import Tailwind from './asset/tailwind.png'
-import Shopify from './asset/shopify.png'
+
 
 
 export default function Skill({title, logo}) {
   return (
-    <div id='skills' className='p-8 ' >
+    <div id='skills' className='p-8 pt-[80px]' >
         <div>
             <p className='font-bold text-2xl py-4'>Skills</p>
             <p className='font-semibold text-xl py-4'>What I can do</p>

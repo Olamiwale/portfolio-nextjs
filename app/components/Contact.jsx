@@ -10,7 +10,7 @@ import InfoIcon from "./InfoIcon";
 
 export default function Contact({ title, Icon }) {
   return (
-    <div id="contact" className="p-8">
+    <div id="contact" className="p-8 pt-[80px]">
       
       <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold">Contact</p>
 <h2 className="py-4 text-xl font-semibold">Get In Touch</h2>
@@ -74,16 +74,6 @@ export default function Contact({ title, Icon }) {
           <input className="border-2 rounded-lg p-3 flex border-gray-300"  type="text" name="subject"/>  
           </div>
               
-          
-          
-        
-            
-
-         
-           
-           
-           
-         
           <div className="flex flex-col">
           <label className="uppercase text-sm py-2">Message</label>
           <textarea className="border-2 rounded-lg p-3 border-gray-300" rows="10" name="message"></textarea>

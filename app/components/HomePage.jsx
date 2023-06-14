@@ -9,14 +9,14 @@ import Navbar from "./Navbar";
 export default function HomePage({ title, Icon }) {
 
   return (
-    <div id='#home'>
-      <div className="mb-20">
+    <div id='#home' className="pt-[100px] pb-[10px] md:pb-[200px] scroll-smooth">
+      <div>
         <Navbar />
 
         <div className="px-8 md:px-16 mt-[80px] flex flex-col justify-center items-center">
           <p className="uppercase"> let's build together</p>
           <p className="text-[40px] md:text-[50px] flex flex-col justify-center items-center font-bold p-4">
-            <span>Hi, I'm Ola</span>
+            <span>Hi, I'm <span className="text-red-500">Ola </span></span>
             <span className="text-center">A Front-End Web Developer</span>
           </p>
           <p className="md:px-8 text-xl text-center lg:px-20">
