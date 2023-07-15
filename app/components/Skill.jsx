@@ -27,9 +27,7 @@ export default function Skill({title, logo}) {
            <SkillsLogo logo={Html} title='HTML' /> 
            <SkillsLogo logo={ImgGit} title='Github' /> 
            <SkillsLogo logo={Js} title='JavaScript' /> 
-          
            <SkillsLogo logo={Next} title='Next' /> 
-           <SkillsLogo logo={Node} title='Node' /> 
            <SkillsLogo logo={Firebase} title='Firebase' /> 
            <SkillsLogo logo={Tailwind} title='Tailwind' /> 
         

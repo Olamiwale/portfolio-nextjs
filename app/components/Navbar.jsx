@@ -50,7 +50,7 @@ export default function Navbar() {
         <ul
           className={
             nav
-              ? "uppercase fixed left-0 top-0 bg-black/80 w-[50%] h-full text-white flex flex-col justify-center items-center md:hidden"
+              ? "z-50 uppercase fixed left-0 top-0 bg-black w-[50%] h-full text-white flex flex-col justify-center items-center md:hidden"
               : "hidden"
           }
         >

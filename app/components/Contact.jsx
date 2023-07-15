@@ -38,10 +38,28 @@ export default function Contact({ title, Icon }) {
           <p className="uppercase pt-8 font-semibold text-center">Connect With Me</p>
 
           <div className="flex justify-evenly py-8">
-           <InfoIcon title="Github" Icon={<FaGithub size={15} />} />
-          <InfoIcon title="LinkedinIn" Icon={<FaLinkedinIn size={15} />} />
+          <a
+              href="https://github.com/Olamiwale"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InfoIcon title="Github" Icon={<FaGithub size={25} />} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/paul-olawale-9236b51a3/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InfoIcon title="LinkedinIn" Icon={<FaLinkedinIn size={25} />} />
+            </a>
           <InfoIcon title="Email" Icon={<AiOutlineMail size={15} />} />
-          <InfoIcon title="Twitter" Icon={<FaTwitter size={15} />} />
+          <a
+              href="https://www.twitter.com/paulolawalee"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InfoIcon title="Twitter" Icon={<FaTwitter size={25} />} />
+            </a>
           <InfoIcon title="Resume" Icon={<BsFillPersonLinesFill size={15} />} /> 
           </div>
 
@@ -90,7 +108,10 @@ export default function Contact({ title, Icon }) {
       </div>
 
      <div className="p-16">
+      <Link href='#home'>
+      
       <HiOutlineChevronDoubleUp className="bg-gray-400 m-auto rounded-full p-3 w-16 h-16  text-[#5651e5] cursor-pointer " size={30} />
+      </Link>
       </div> 
     </div>
   );

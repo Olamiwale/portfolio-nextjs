@@ -20,14 +20,7 @@ export default function About() {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-          <p className='md:text-xl py-8'>
-            I started web development in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wire-frames all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            development and various front-end technologies.
-          </p>
+         
          
             <p className='md:w-[300px] m-auto text-center font-semibold p-3 bg-blue-300 hover:scale-105 ease-in duration-500 shadow-2xl'> 
             Check out some of my latest projects
