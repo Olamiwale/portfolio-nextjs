@@ -10,9 +10,94 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+
+
+
+
+
+
+.gradient {
+ 
+  background-image: radial-gradient(at 27% 37%,hsla(215, 98%, 61%, 1) 0px,
+      transparent 0%
+    ),
+    radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+ 
+}
+
+
+
+.bg-custom-gradient {
+  --tw-gradient-from: #f0abfc var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(240 171 252 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.orange_gradient {
+  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @layer base {
   body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
   }
-
  }
+
+ .custom-skill {
+  @apply shadow-gray-300 shadow-xl m-5 grid grid-cols-2 justify-between p-8 w-[200px] items-center rounded-lg 
+ }
+
+ .custom-btn {
+  @apply my-8 m-auto text-center font-semibold p-3 bg-blue-300 hover:scale-105 ease-in duration-500 shadow-2xl flex justify-center rounded-md
+ }
+
+ .custom-icon {
+  @apply rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300
+ }
+
+ .icon-title {
+  @apply font-semibold opacity-0 group-hover:opacity-100
+ }
+
+ .icon-dev {
+  @apply flex flex-col justify-center items-center
+ }
+
+ .custom-input {
+  @apply border-2 rounded-lg p-3 flex border-gray-300
+ }
+
+
+
+
+

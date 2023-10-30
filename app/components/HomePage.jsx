@@ -18,14 +18,13 @@ export default function HomePage({ title, Icon }) {
           <p className="uppercase"> let's build together</p>
           <p className="text-[40px] md:text-[50px] flex flex-col justify-center items-center font-bold p-4">
             <span>
-              Hi, I'm <span className="text-red-500">Ola </span>
+              Hi, I'm <span className="orange_gradient">Paul </span>
             </span>
-            <span className="text-center">A Front-End Web Developer</span>
+            <span className="text-center orange_gradient ">A Full stack Developer</span>
           </p>
           <p className="md:px-8 text-xl text-center lg:px-20">
-            I'm a front-end developer specializing in building and designing
-            exceptional digital experience. Currently im focussed on building
-            responsive front-web application while learning back-end technology
+            I'm a fullstack developer specializing in building and designing
+            exceptional digital experience.
           </p>
         </div>
 

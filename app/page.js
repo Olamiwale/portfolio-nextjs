@@ -5,9 +5,10 @@ import HomePage from "./components/HomePage";
 import Project from "./components/Project";
 import Skills from "./components/Skill";
 
+
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <HomePage />
       <About />
       <Skills />

@@ -5,12 +5,13 @@ import Css from './asset/css.png'
 import Html from './asset/html.png'
 import ImgGit from './asset/github1.png'
 import Js from './asset/javascript.png'
-
+import Mongo from './asset/mongo.png'
 import Next from './asset/nextjs.png'
 import Node from './asset/node.png'
 import Firebase from './asset/firebase.png'
-
 import Tailwind from './asset/tailwind.png'
+import Solidity from './asset/solidity.png'
+import Vue from './asset/vue.png'
 
 
 
@@ -18,7 +19,7 @@ export default function Skill({title, logo}) {
   return (
     <div id='skills' className='p-8 pt-[80px]' >
         <div>
-            <p className='font-bold text-2xl py-4'>Skills</p>
+        <p className='font-bold text-2xl py-4'>Skills</p>
             <p className='font-semibold text-xl py-4'>What I can do</p>
         </div>
        
@@ -30,6 +31,11 @@ export default function Skill({title, logo}) {
            <SkillsLogo logo={Next} title='Next' /> 
            <SkillsLogo logo={Firebase} title='Firebase' /> 
            <SkillsLogo logo={Tailwind} title='Tailwind' /> 
+           <SkillsLogo logo={Node} title='Node' /> 
+           <SkillsLogo logo={Mongo} title='Mongo' /> 
+           <SkillsLogo logo={Solidity} title='Solidity' /> 
+           <SkillsLogo logo={Vue} title='Vue'/> 
+           
         
       
         </div>
