@@ -16,11 +16,11 @@ export default function HomePage({ title, Icon }) {
 
         <div className="px-8 md:px-16 mt-[80px] flex flex-col justify-center items-center">
           <p className="uppercase"> let's build together</p>
-          <p className="text-[40px] md:text-[50px] flex flex-col justify-center items-center font-bold p-4">
+          <p className="text-[25px] md:text-[40px] lg:text-[50px] flex flex-col justify-center items-center font-bold p-4">
             <span>
               Hi, I'm <span className="orange_gradient">Paul </span>
             </span>
-            <span className="text-center orange_gradient ">A Full stack Developer</span>
+            <span className="text-center orange_gradient">A Full stack Developer</span>
           </p>
           <p className="md:px-8 text-xl text-center lg:px-20">
             I'm a fullstack developer specializing in building and designing

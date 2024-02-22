@@ -1,7 +1,13 @@
-import React from "react";
-import Image from "next/image";
+'use client'
+
+import React, { useState } from "react";
+
 
 export default function Form() {
+
+  const [name,setName] = useState('')
+  const [email,setEmail] = useState('')
+  const [phone,setPhone] = useState('')
   return (
     <form className="w-full">
       <div className="grid ">      
@@ -12,6 +18,8 @@ export default function Form() {
             className="custom-input"
             type="text"
             name="name"
+            value={name}
+            onChange={(e)=>setName(e.target.value)}
           />
         </div>
         <div className="flex flex-col">
@@ -20,6 +28,8 @@ export default function Form() {
             className="custom-input"
             type="number"
             name="phone"
+            value={email}
+            onChange={(e)=>setEmail(e.target.value)}
           />
         </div>
         <div className="flex flex-col">
@@ -28,6 +38,8 @@ export default function Form() {
             className="custom-input"
             type="email"
             name="email"
+            value={phone}
+            onChange={(e)=>setPhone(e.target.value)}
           />
         </div>
        
@@ -48,3 +60,5 @@ export default function Form() {
     </form>
   );
 }
+
+

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
 import Form from "./Form";
 
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -12,7 +11,7 @@ import InfoIcon from "./InfoIcon";
 
 export default function Contact({ title, Icon }) {
   return (
-    <div id="contact" className="p-8 pt-[80px]">
+    <div id="contact" className="mt-4 p-8 pt-[80px]">
       <p className="text-xl tracking-widest uppercase text-[#5651e5] font-bold">
         Contact
       </p>

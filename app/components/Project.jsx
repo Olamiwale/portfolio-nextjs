@@ -1,31 +1,15 @@
-
 import React from "react";
 import ProjectProps from "./ProjectProps";
-import About from './asset/about.jpg'
+import Project1Img from "./assetProject/vs.png";
+import Project2Img from "./assetProject/nextflix.png";
 
-import Css from './asset/css.png'
-
-
-export default function Project({ title, url, img}) {
-
-
+export default function Project() {
   return (
-    <div id='projects' className="p-8 pt-[80px]">
-      <div>
-        <h1 className="font-bold text-2xl py-4">Projects</h1>
-        <h3 className="font-semibold text-xl py-4">What I have built</h3>
-      </div>
-      <div>
-
-        <div className="w-full grid md:grid-cols-2 gap-5">
-        <ProjectProps title="Netflix" url="/project1" img={Css}/>
-        <ProjectProps title="Summerizer" url="/project2" img={Css} />
-        <ProjectProps title="project3" url="/project3" img={Css} />
-        <ProjectProps title="project4" url="/project4" img={Css} />
-        
-        </div>
-       
-      </div>
+    <div id="projects" className="p-8 pt-[80px] mb-5 flex">
+      <ProjectProps title="Netflix" url="/project1" img={Project1Img} />
+      <ProjectProps title="Netflix" url="/project2" img={Project2Img} />
+      <ProjectProps title="Netflix" url="/project1" img={Project1Img} />
+      <ProjectProps title="Netflix" url="/project2" img={Project2Img} />
     </div>
   );
 }
