@@ -11,7 +11,7 @@ export default function page() {
       title='Vanlife'
       img1={'/pro--1.png'}
       url1={'https://github.com/Olamiwale/vanlife.git'}
-      url2={'https://google.com'}
+      url2={'https://effortless-treacle-b0b12a.netlify.app/'}
       des='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       />
 
