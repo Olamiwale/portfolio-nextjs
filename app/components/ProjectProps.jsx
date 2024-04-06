@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ProjectProps({ title, url, img }) {
   return (
-    <div className="shadow-xl shadow-gray-400 rounded-md space-x-4">
+    <div className="shadow-xl shadow-gray-700 rounded-md space-x-4 mx-5">
       <Link href={url}>
         <div className="flex justify-center p-4  items-center group">
           <Image

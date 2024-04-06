@@ -6,7 +6,7 @@ export default function InfoIcon({ title, Icon }) {
       <div >
         <div className="icon-div items-center"  >
           <div className="custom-icon"> {Icon} </div>
-          <p className="icon-title">{title}</p>
+          <div className="icon-title ">{title}</div>
         </div>
       </div>
     </div>
