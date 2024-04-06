@@ -12,14 +12,7 @@ export default function About() {
             <p className="font-bold text-3xl">About</p>
             <h2 className="py-4 font-semibold text-xl">Who I Am?</h2>
             <p className="md:text-xl">
-              I'm a full stack and blockchain developer with more than 8
-              years of experience. I specialize in front-end and back-end
-              development, working with React.js, Next.js, Vue.js, HTML5, CSS3,
-              TailwindCSS, Node.js, Solidity I've successfully completed various
-              types of projects in the fields of web2 and web3 industries.
-              Client satisfaction is my top priority, and I pride myself on
-              delivering high-quality solutions that meet their unique
-              requirements.
+            I'm a frontend developer, currently expanding my skills to include backend development. I specialize in crafting engaging user experiences using technologies such as React.js, Next.js, Vue.js, HTML5, CSS3, and TailwindCSS. Additionally, I have proficiency in backend technologies like Node.js and Solidity. Throughout my career, I've completed a diverse range of projects spanning both web2 and web3 industries. My primary focus is on client satisfaction, and I take pride in delivering high-quality solutions tailored to their specific needs..
             </p>
 
             <button className="custom-btn">
